@@ -17,10 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -39,7 +36,7 @@ public class ProductsFragment extends Fragment {
 	private static final String TAG = ProductsFragment.class.getSimpleName();
 
 	// Movies json url
-	private static final String url = "http://api.androidhive.info/json/movies.json";
+	private static final String url = "http://api.androidhive.info/json/movies.json";//file:///android_asset/www/index.html
 	private ProgressDialog pDialog;
 	private List<Movie> movieList = new ArrayList<Movie>();
 	private ListView listView;
