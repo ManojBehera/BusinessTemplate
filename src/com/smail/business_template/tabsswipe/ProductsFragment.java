@@ -36,7 +36,7 @@ public class ProductsFragment extends Fragment {
 	private static final String TAG = ProductsFragment.class.getSimpleName();
 
 	// Movies json url
-	private static final String url = "http://api.androidhive.info/json/movies.json";//file:///android_asset/www/index.html
+	private static final String url = "http://www.json-generator.com/api/json/get/bPDKYxsDaW?indent=2";//http://api.androidhive.info/json/movies.json
 	private ProgressDialog pDialog;
 	private List<Movie> movieList = new ArrayList<Movie>();
 	private ListView listView;

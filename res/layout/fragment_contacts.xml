@@ -15,6 +15,7 @@
         <RelativeLayout style="@style/LargeTitleAlt" >
 
             <TextView
+                android:id="@+id/share"
                 style="@style/LargeTitleLabelAlt2"
                 android:layout_centerHorizontal="true"
                 android:drawableBottom="@drawable/btn_contact_share"
@@ -74,7 +75,7 @@
                 android:orientation="horizontal" >
 
                 <ImageButton
-                    android:id="@+id/button_reset"
+                    android:id="@+id/button_message"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height2"
                     android:layout_gravity="center"
@@ -90,7 +91,7 @@
                     android:layout_marginTop="8.0dip" />
 
                 <ImageButton
-                    android:id="@+id/button_view"
+                    android:id="@+id/button_call"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height2"
                     android:layout_gravity="center"
@@ -106,7 +107,7 @@
                     android:layout_marginTop="8.0dip" />
 
                 <ImageButton
-                    android:id="@+id/button_proceed"
+                    android:id="@+id/button_info"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height2"
                     android:layout_gravity="center"

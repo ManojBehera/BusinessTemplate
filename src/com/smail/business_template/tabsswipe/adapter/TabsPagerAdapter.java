@@ -1,13 +1,13 @@
 package com.smail.business_template.tabsswipe.adapter;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+
 import com.smail.business_template.tabsswipe.ContactFragment;
 import com.smail.business_template.tabsswipe.ProductsFragment;
 import com.smail.business_template.tabsswipe.ServicesFragment;
 import com.smail.business_template.tabsswipe.TopRatedFragment;
-
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 
 public class TabsPagerAdapter extends FragmentPagerAdapter {
 
