@@ -26,7 +26,7 @@
     <string name="lbl_way_to_save">Way to save!</string>
     <string name="lbl_product">Smail Product!</string>
     <string name="btn_get_started">Get Started</string>
-    <string name="lbl_how_it_works">How it works</string>
+    <string name="lbl_how_it_works">Samil Business</string>
     <string name="OK">OK</string>
     <string name="lbl_still_no_email">Still not getting the email?</string>
     <string name="lbl_spam_folder">Help your customers to reach you easily &amp; more quickly.</string>
@@ -60,12 +60,16 @@ email address."</string>
     <string name="lbl_enter_email">Enter your email address</string>
     <string name="lbl_claim_tip_2">"Offers are limited in quantity.
 When you see one you like, claim it while you can!"</string>
+    <string name="lbl_contact">It helps you get rid of print communication supports like business cards, flyers&#8230;Developed by Cool App Team</string>
+    <string name="lbl_contact_us">CEO Contact:\nSmail CHERIFI\nsmail.ch.dz@gmail.com\n(+213) 0. 552. 600. 611</string>
 
     <color name="checkout_green">#ff76b844</color>
 
     <string name="lbl_claim_tip_1">Tip on claiming offers</string>
+    <string name="lbl_credit">Credits goes to</string>
     <string name="lbl_be_patient">This can take a few seconds.</string>
     <string name="lbl_uploading">Uploading!</string>
+    <string name="lbl_company_info">Contact Us!</string>
 
     <color name="pema_polo_blue">#ff7eacd2</color>
     <color name="andrews_atomic_tangerine">#ffff996e</color>
