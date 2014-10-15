@@ -6,7 +6,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.smail.business_template.tabsswipe.ContactFragment;
 import com.smail.business_template.tabsswipe.ProductsFragment;
-import com.smail.business_template.tabsswipe.ServicesFragment;
 import com.smail.business_template.tabsswipe.TopRatedFragment;
 
 public class TabsPagerAdapter extends FragmentPagerAdapter {
@@ -27,11 +26,11 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 			return new ProductsFragment();
 		case 2:
 			// Movies fragment activity
-			return new ServicesFragment();
-
-		case 3:
-			// Movies fragment activity
 			return new ContactFragment();
+
+//		case 3:
+//			// Movies fragment activity
+//			return new ContactFragment();
 		}
 
 		return null;
@@ -40,7 +39,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 	@Override
 	public int getCount() {
 		// get item count - equal to number of tabs
-		return 4;
+		return 3;
 	}
 
 }

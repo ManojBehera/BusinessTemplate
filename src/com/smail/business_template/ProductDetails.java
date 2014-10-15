@@ -21,7 +21,7 @@ public class ProductDetails extends FragmentActivity implements
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
 	// Tab titles
-	private String[] tabs = { "Welcome", "Products", "Service","Contact" };
+	private String[] tabs = { "Welcome", "Products & Service","Contact" };
 	public static Activity mActivity ;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +33,15 @@ public class ProductDetails extends FragmentActivity implements
 		// Initilization
 		viewPager = (ViewPager) findViewById(R.id.pager);
 		actionBar = getActionBar();
-		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-		actionBar.setCustomView(R.layout.action_bar);
+		/*actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+		actionBar.setCustomView(R.layout.action_bar);*/
 		mAdapter = new TabsPagerAdapter(getSupportFragmentManager());
 
 		viewPager.setAdapter(mAdapter);
 		actionBar.setHomeButtonEnabled(false);
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+		actionBar.setDisplayShowTitleEnabled(false);
+		actionBar.setDisplayShowHomeEnabled(false);
 		ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#DBD7D7"));
 		actionBar.setBackgroundDrawable(colorDrawable);
 		
